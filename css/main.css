@@ -221,7 +221,7 @@ h3.sm-heading {
 
 .heading-underline {
   width: 5rem;
-  height: 0.3rem;
+  height: 0.2rem;
   background-color: #18a062;
   margin: 0 auto 2rem;
 }
@@ -276,7 +276,7 @@ main .icon-arow i {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bioimage  bio bio" "job1 job2 job3 job4";
+  grid-template-areas: "bioimage bioimage bio bio" "job1 job2 job2 job3";
   grid-template-columns: repeat(4, 1fr);
 }
 .about-info .bio-image {
@@ -297,9 +297,6 @@ main .icon-arow i {
 }
 .about-info .job-3 {
   grid-area: job3;
-}
-.about-info .job-4 {
-  grid-area: job4;
 }
 
 .about-info .job {
