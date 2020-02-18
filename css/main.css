@@ -213,7 +213,7 @@ h3.sm-heading {
 }
 .lg-heading-content {
   color: #45474a;
-  font-size: 3rem;
+  font-size: 2.5em;
   margin: 5rem auto 0.5rem;
   text-transform: uppercase;
   font-weight: 600;
@@ -276,8 +276,15 @@ main .icon-arow i {
 .about-info {
   display: grid;
   grid-gap: 30px;
+  font-size: 1.2rem;
+  color: #616161;
   grid-template-areas: "bioimage bioimage bio bio" "job1 job2 job2 job3";
   grid-template-columns: repeat(4, 1fr);
+}
+.about-info h3 {
+  color: #45474a;
+  font-size: 1.5;
+  font-weight: bold;
 }
 .about-info .bio-image {
   grid-area: bioimage;
@@ -287,7 +294,7 @@ main .icon-arow i {
 }
 .about-info .bio {
   grid-area: bio;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .about-info .job-1 {
   grid-area: job1;
@@ -297,10 +304,6 @@ main .icon-arow i {
 }
 .about-info .job-3 {
   grid-area: job3;
-}
-
-.about-info .job {
-  padding: 0.5rem;
 }
 
 .projects {
